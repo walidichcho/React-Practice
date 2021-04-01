@@ -12,6 +12,7 @@ function NavBar() {
                         <Link to="/Form" className={window.location.pathname === "/Form" ? "nav-link active" : "nav-link"} > Form</Link>
                         <Link to="/Counter" className={window.location.pathname === "/Counter" ? "nav-link active" : "nav-link"}   >Counter</Link>
                         <Link to="/friend" className={window.location.pathname === "/friend" ? "nav-link active" : "nav-link"}  > Friend</Link>
+                        <Link to="/Giphy" className={window.location.pathname === "/Giphy" ? "nav-link active" : "nav-link"}  > Giphy</Link>
                     </ul>
                 </div>
             </div>

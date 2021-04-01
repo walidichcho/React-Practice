@@ -8,13 +8,15 @@ import Counter from "./component/Counter"
 import Home from "./component/Home"
 import FriendsFinal from './component/Friends/FriendsFinal';
 
+import SearchResultContainer from './component/Giphy/SearchResultContainer';
+
 function App() {
   return (
     <Router>
       <div className="App">
 
         <NavBar />
-
+        <Route exact path="/Giphy" component={SearchResultContainer} />
         <Route exact path="/Home" component={Home} />
         <Route exact path="/Form" component={Form} />
         <Route exact path="/Counter" component={Counter} />
